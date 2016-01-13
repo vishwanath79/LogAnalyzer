@@ -1,4 +1,4 @@
-# Sample Flask app that greps logs and displays them in a graph. Tested out bokeh and pygal.
+# Sample Flask app that greps logs and displays them in a graph ( bokeh and pygal).
 
 import datetime
 import glob
