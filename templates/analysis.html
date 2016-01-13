@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+
+{{ super() }}
+
+{% block content %}
+
+
+<div class="container">
+
+
+    <h4> {{dfname}}</h4>
+    <p> {{ dfblankmessage }}</p>
+    <table class="table table-striped">
+
+        {{df.to_html(classes="table table-hover") | safe }}
+
+    </table>
+
+    {{ savemessage }}
+
+</div>
+
+
+{% endblock %}
+
+
+
